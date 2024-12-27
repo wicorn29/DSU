@@ -1,18 +1,9 @@
 [
-  {
-    "name": "The Legend of Zelda: Phantom Hourglass",
-    "imageUrl": "https://example.com/zelda.jpg",
-    "downloadUrl": "https://example.com/download/zelda.zip",
-    "longDescription": "An action-adventure game where Link embarks on a quest to rescue his sister.",
-    "description": "A fantastic Zelda game with puzzles and combat."
-    "gameid": "12345"
-  },
-  {
-    "name": "Mario Kart DS",
-    "imageUrl": "https://example.com/mariokart.jpg",
-    "downloadUrl": "https://example.com/download/mariokart.zip",
-    "longDescription": "A racing game where players race as Mario and other characters in the Mario universe.",
-    "description": "Fast-paced racing action."
-    "gameid": "123456"
-  }
+{
+  "name": "Game Name",
+  "description": "Short description of the game",
+  "imageUrl": "https://example.com/image.jpg",
+  "downloadUrl": "https://example.com/download",
+  "gameid": "12345"
+}
 ]
