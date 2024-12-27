@@ -12,9 +12,7 @@ Wicorn29 DSU is a project designed to provide an enhanced experience for Nintend
 ## Features
 
 - **Improved Compatibility**: Enhanced support for a wider range of DS titles on the Wii U.
-- **Customizable Controls**: Map DS controls to the Wii U GamePad for seamless gameplay.
 - **Dual-Screen Experience**: Optimized screen layouts for DS games using the GamePad and TV.
-- **Save State Management**: Easily manage save states for quick progress saves.
 - **Performance Boosts**: Reduced lag and improved rendering quality for DS games.
 
 ---
@@ -28,14 +26,14 @@ Wicorn29 DSU works by patching the Wii U’s built-in DS Virtual Console emulato
 ## Installation
 
 1. **Requirements**:
-   - A modded Wii U with Homebrew Channel.
-   - A DS Virtual Console title installed on the system.
+   - A modded Wii U with Aroma.
    - SD card with at least 1GB free space.
+   - WUP Installer GX2
 
 2. **Steps**:
-   - Download the latest release from the [Releases](https://github.com/username/Wicorn29-DSU/releases) page.
-   - Extract the files to your SD card in the `/wicorn29dsu/` directory.
-   - Launch the Homebrew Channel and run the Wicorn29 DSU installer.
+   - Download the latest release from the [Releases](https://github.com/wicorn29/DSU/releases) page.
+   - Extract the folder to your SD card in the `/install` directory. (If it doesn't exist, make sure you have WUP Installer GX2)
+   - Launch WUP Installer GX2, and select 'Wicorn29 DSU'.
 
 3. **Configuration**:
    - Use the settings menu to configure control layouts and screen preferences.
