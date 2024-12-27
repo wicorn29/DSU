@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Details - Wicorn29 DSU</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header .home-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        header .home-btn:hover {
+            background-color: #0056b3;
+        }
+        main {
+            flex: 1;
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .game-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .game-details img {
+            width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+        }
+        .game-details h2 {
+            font-size: 1.8rem;
+            color: #4CAF50;
+        }
+        .game-details p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wicorn29 DSU</h1>
+        <a class="home-btn" href="index.html">Home</a>
+    </header>
+    <main>
+        <div class="game-details" id="game-details">
+            <!-- Game details will be dynamically injected here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Wicorn29. All rights reserved.</p>
+    </footer>
+    <script>
+        const gameDetailsContainer = document.getElementById('game-details');
+        const urlParams = new URLSearchParams(window.location.search);
+        const gameId = urlParams.get('id');
+
+        if (!gameId) {
+            gameDetailsContainer.innerHTML = '<p>Error: No game ID provided.</p>';
+        } else {
+            fetch('https://raw.githubusercontent.com/wicorn29/DSU/refs/heads/Web/hostedData/games.json')
+                .then(response => response.json())
+                .then(data => {
+                    const game = data.find(g => g.gameid === gameId);
+                    if (game) {
+                        gameDetailsContainer.innerHTML = `
+                            <img src="${game.imageUrl}" alt="${game.name}">
+                            <h2>${game.name}</h2>
+                            <p>${game.description}</p>
+                            <p>${game.longDescription}</p>
+                            <a class="download-btn" href="${game.downloadUrl}" target="_blank">Download</a>
+                        `;
+                    } else {
+                        gameDetailsContainer.innerHTML = '<p>Error: Game not found.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading game data:', error);
+                    gameDetailsContainer.innerHTML = '<p>Error loading game details. Please try again later.</p>';
+                });
+        }
+    </script>
+</body>
+</html>
