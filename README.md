@@ -78,6 +78,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Support
 
-Have questions or need help? Feel free to open an [Issue](https://github.com/username/DSU/issues) or contact us at support@example.com.
+Have questions or need help? Feel free to open an [Issue](https://github.com/username/DSU/issues).
 
 ---
