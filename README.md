@@ -65,7 +65,7 @@ We welcome contributions to make Wicorn29 DSU even better! Please follow these s
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [ Apache-2.0 License](LICENSE).
 
 ---
 
