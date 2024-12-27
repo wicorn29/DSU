@@ -50,7 +50,7 @@ Wicorn29 DSU works by patching the Wii U’s built-in DS Virtual Console emulato
 
 ## Development Status
 
-This project is currently in **beta**, and contributions are welcome! Check the [Issues](https://github.com/username/Wicorn29-DSU/issues) page to report bugs or suggest features.
+This project is currently in **beta**, and contributions are welcome! Check the [Issues](https://github.com/wicorn29/DSU/issues) page to report bugs or suggest features.
 
 ---
 
@@ -71,13 +71,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-- **Lead Developer**: [Your Name](https://github.com/username)
-- **Contributors**: See the [Contributors](https://github.com/username/Wicorn29-DSU/graphs/contributors) page.
+- **Lead Developer**: [Wicorn29](https://github.com/wicorn29)
+- **Contributors**: See the [Contributors](https://github.com/wicorn29/DSU/graphs/contributors) page.
 
 ---
 
 ## Support
 
-Have questions or need help? Feel free to open an [Issue](https://github.com/username/Wicorn29-DSU/issues) or contact us at support@example.com.
+Have questions or need help? Feel free to open an [Issue](https://github.com/username/DSU/issues) or contact us at support@example.com.
 
 ---
