@@ -42,7 +42,7 @@ function renderGames(games) {
 
     const detailsBtn = document.createElement('a');
     detailsBtn.classList.add('details-btn');
-    detailsBtn.href = `https://example.com/index.html?id=${gameid}`;
+    detailsBtn.href = `/gdetails.html?id=${gameid}`;
     detailsBtn.textContent = 'More Details';
     gameInfo.appendChild(detailsBtn);
 
