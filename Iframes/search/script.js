@@ -42,8 +42,8 @@ function renderGames(games) {
 
     const detailsBtn = document.createElement('a');
     detailsBtn.classList.add('details-btn');
-    detailsBtn.href = `/gdetails.html?id=${gameid}`;
-    detailsBtn.target = '_blank'; // Open in a new window
+    detailsBtn.href = `https://wicorn29.github.io/DSU/gdetails.html?id=${gameid}`;
+    detailsBtn.target = '_blank'; // Open in a new window or tab
     detailsBtn.textContent = 'More Details';
     gameInfo.appendChild(detailsBtn);
 
