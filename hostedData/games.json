@@ -5,6 +5,7 @@
     "downloadUrl": "https://example.com/download/zelda.zip",
     "longDescription": "An action-adventure game where Link embarks on a quest to rescue his sister.",
     "description": "A fantastic Zelda game with puzzles and combat."
+    "gameid": "12345"
   },
   {
     "name": "Mario Kart DS",
@@ -12,5 +13,6 @@
     "downloadUrl": "https://example.com/download/mariokart.zip",
     "longDescription": "A racing game where players race as Mario and other characters in the Mario universe.",
     "description": "Fast-paced racing action."
+    "gameid": "123456"
   }
 ]
