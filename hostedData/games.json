@@ -1,9 +1,26 @@
 [
-{
-  "name": "Game Name",
-  "description": "Short description of the game",
-  "imageUrl": "https://example.com/image.jpg",
-  "downloadUrl": "https://example.com/download",
-  "gameid": "12345"
-}
+  {
+    "name": "Super Mario Bros DS",
+    "description": "A classic Mario platformer for the Nintendo DS.",
+    "longDescription": "Super Mario Bros DS brings the iconic Mario platforming experience to the Nintendo DS, featuring new levels, enemies, and power-ups. Explore the Mushroom Kingdom in both single-player and multiplayer modes!",
+    "imageUrl": "https://example.com/images/super_mario_bros_ds.jpg",
+    "downloadUrl": "https://example.com/downloads/super_mario_bros_ds",
+    "gameid": "001"
+  },
+  {
+    "name": "Pokémon Diamond",
+    "description": "The iconic Pokémon RPG for the DS.",
+    "longDescription": "Pokémon Diamond takes players to the Sinnoh region, where they can catch, train, and battle Pokémon in an all-new 3D environment. With an engaging storyline and countless secrets, it’s a must-play for any Pokémon fan.",
+    "imageUrl": "https://example.com/images/pokemon_diamond.jpg",
+    "downloadUrl": "https://example.com/downloads/pokemon_diamond",
+    "gameid": "002"
+  },
+  {
+    "name": "The Legend of Zelda: Phantom Hourglass",
+    "description": "A unique Zelda experience on the DS with touch controls.",
+    "longDescription": "The Legend of Zelda: Phantom Hourglass brings the Zelda series to the DS, using the system’s touchscreen for puzzles, combat, and exploration. Players control Link as he journeys across the seas to rescue his friend Tetra.",
+    "imageUrl": "https://example.com/images/zelda_phantom_hourglass.jpg",
+    "downloadUrl": "https://example.com/downloads/zelda_phantom_hourglass",
+    "gameid": "003"
+  }
 ]
