@@ -31,9 +31,9 @@ Wicorn29 DSU works by patching the Wii U’s built-in DS Virtual Console emulato
    - WUP Installer GX2
 
 2. **Steps**:
-   - Download the latest release from the [Releases](https://github.com/wicorn29/DSU/releases) page.
+   - Download a supported game from the [website]([https://github.com/wicorn29/DSU/releases](https://wicorn29.github.io/DSU/)) page.
    - Extract the folder to your SD card in the `/install` directory. (If it doesn't exist, make sure you have WUP Installer GX2)
-   - Launch WUP Installer GX2, and select 'Wicorn29 DSU'.
+   - Launch WUP Installer GX2, and select the game you downloaded.
 
 3. **Configuration**:
    - Use the settings menu to configure control layouts and screen preferences.
